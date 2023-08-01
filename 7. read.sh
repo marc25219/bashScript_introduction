@@ -2,11 +2,11 @@
 #
 ####
 ## 
-## [AUTHOR]: Marc Ciruelos Santos
+##  [AUTHOR]: Marc Ciruelos Santos
 ##
-## [DATE]: 01-08-2023
+##  [DATE]: 01-08-2023
 ##
-## [DESCRIPTION]: It reads a string from standard input and assing it to a variable 
+##  [DESCRIPTION]: It reads a string from standard input and assing it to a variable 
 ##
 ####
 

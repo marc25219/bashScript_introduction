@@ -2,16 +2,17 @@
 #
 ####
 ## 
-## [AUTHOR]: Marc Ciruelos Santos
+##  [AUTHOR]: Marc Ciruelos Santos
 ##
-## [DATE]: 01-08-2023
+##  [DATE]: 01-08-2023
 ##
-## [TITLE]: Use IF conditionals with logical operators
+##  [TITLE]: Use IF conditionals with logical operators
 ##
-## [DESCRIPTION]: It reads the age through standard input. Then, it uses the conditionals
+##  [DESCRIPTION]: It reads the age through standard input. Then, it uses the conditionals
 ##                and logical operators to show different scenarios.
 ##
-## [ADDITIONAL]: Logic operators: ( ||, &&)
+##  [ADDITIONAL]: Logic operators: ( ||, &&)
+##
 ####
 
 echo "Type your age, please: "

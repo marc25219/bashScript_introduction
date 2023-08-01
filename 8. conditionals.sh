@@ -2,16 +2,17 @@
 #
 ####
 ## 
-## [AUTHOR]: Marc Ciruelos Santos
+##  [AUTHOR]: Marc Ciruelos Santos
 ##
-## [DATE]: 01-08-2023
+##  [DATE]: 01-08-2023
 ##
-## [TITLE]: Use IF conditionals
+##  [TITLE]: Use IF conditionals
 ##
-## [DESCRIPTION]: It reads the age through standard input. Then, it uses the conditionals
+##  [DESCRIPTION]: It reads the age through standard input. Then, it uses the conditionals
 ##                to show different scenarios. 
 ##
-## [ADDITIONAL]: Operators: (-eq, -ge, -le, -lt, -gt, -ne (not-equal))
+##  [ADDITIONAL]: Operators: (-eq, -ge, -le, -lt, -gt, -ne (not-equal))
+##
 ####
 
 echo "Type your age, please: "
