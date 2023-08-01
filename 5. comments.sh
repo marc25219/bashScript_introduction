@@ -1,6 +1,14 @@
 #! /bin/bash
-
-# Add comment by line
+#
+####
+## 
+## [AUTHOR]: Marc Ciruelos Santos
+##
+## [DATE]: 01-08-2023
+##
+## [DESCRIPTION]: How to write a comment block
+##
+####
 
 : 'Add block comment
    in two lines'
