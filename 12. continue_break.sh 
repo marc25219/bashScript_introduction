@@ -6,7 +6,7 @@
 ##
 ##  [DATE]: 28-08-2023
 ##
-##  [DESCRIPTION]: Break and continue clausules. 
+##  [DESCRIPTION]: Break and continue clausules. Remember, only meaningful in a for, while or until loop.
 ##                  - Break: The execution is stopped.
 ##                  - Continue: The execution is skipped in this step.                        
 ##
