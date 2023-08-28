@@ -1,0 +1,51 @@
+#! /bin/bash
+#
+####
+## 
+##  [AUTHOR]: Marc Ciruelos Santos
+##
+##  [DATE]: 28-08-2023
+##
+##  [DESCRIPTION]: It uses arguments as a parameter in the command execution, i.e.: 
+##                  - ./arguments.sh argument1 argument2 ... argumentN     
+##
+##  [ADDITIONAL]: - argument 0 = $0        
+##                - argument 1 = $1
+##                - argument 2 = $2
+##                          .
+##                          .
+##                          .
+##                - argument n = $n
+##
+##                - $@ Content of the all arguments (except argument 0).
+##                - $# Number of all arguments (except argument 0). 
+##
+##                Also, it is used the arithmetic expansion bash structure: https://tldp.org/LDP/abs/html/arithexp.html
+####
+
+# Check number of arguments valids using '$#'.
+if [ $# -eq 2 ]
+then
+
+    # Add arguments content as array
+    args=("$@")    
+
+    # Sum: Gets the first and second arguments and performs a sum. (ARRAY METHOD).
+    echo -ne "\nCase 1. Add: ${args[0]} + ${args[1]} = "
+
+    add=$(( ${args[0]} + ${args[1]} )) 
+    echo $add
+
+    # Subtract: Gets the first and second arguments and performs a subtraction. (DIRECT METHOD).
+    echo -n "Case 2. Add: $1 - $2 = "
+
+    add=$(( $1 - $2 )) 
+    echo $add
+else
+    # Error messsage.
+    echo "ERROR: Invalid number of arguments. Please, check your command and introduce only 2 numbers as arguments."
+fi
+
+# Show the arguments content using '$@'.
+echo -ne "\nThe executed command was: $0 $@ \n"
+
