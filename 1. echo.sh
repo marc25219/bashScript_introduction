@@ -12,3 +12,4 @@
 
 echo "1. Remember to give execution privileges!"
 echo "2. Execute 'cat /etc/shells' to know all the shells"
+echo "9. Advanced Bash-Scripting Guide: https://tldp.org/LDP/abs/html/index.html"
