@@ -1,0 +1,72 @@
+#! /bin/bash
+#
+####
+## 
+##  [AUTHOR]: Marc Ciruelos Santos
+##
+##  [DATE]: 28-08-2023
+##
+##  [DESCRIPTION]: It shows different ways to use the loop clausules (DO-WHILE, FOR).
+##
+####
+
+# DO-WHILE
+echo -e "\nCase 1. DO-WHILE (0-9)"
+
+number=0
+
+while [ $number -lt 10 ]
+do
+    echo $number
+    number=$((number + 1))
+done
+
+
+
+# FOR: Increments $i by 1 until 5 loops.
+echo -e "\nCase 2. FOR: (1 2 3 4 5)"
+
+for i in 1 2 3 4 5
+do  
+    echo $i
+done
+
+
+
+# FOR: Increments $i by 1 until 5 loops.
+echo -e "\nCase 3. FOR: (1..5)"
+
+for i in {1..5}
+do  
+    echo $i
+done
+
+
+
+# FOR: Increments $i by 10 until 50 loops.
+echo -e "\nCase 4. FOR: (1..50..10)"
+
+for i in {1..50..10}
+do  
+    echo $i
+done
+
+
+
+# FOR-Standard Mode: Increments $i by 1 until 5 loops.
+echo -e "\nCase 5. FOR-Standard Mode: (i=0; i < 5; i++)"
+
+for (( i=0; i < 5; i++ ))
+do  
+    echo $i
+done
+
+
+
+# FOR-Standard Mode: Increments $i by 10 until 50 loops.
+echo -e "\nCase 6. FOR-Standard Mode: (i=0; i < 50; i=i+10)"
+
+for (( i=0; i < 50; i=i+10 ))
+do  
+    echo $i
+done
