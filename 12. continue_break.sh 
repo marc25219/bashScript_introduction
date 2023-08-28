@@ -1,0 +1,37 @@
+#! /bin/bash
+#
+####
+## 
+##  [AUTHOR]: Marc Ciruelos Santos
+##
+##  [DATE]: 28-08-2023
+##
+##  [DESCRIPTION]: Break and continue clausules. 
+##                  - Break: The execution is stopped.
+##                  - Continue: The execution is skipped in this step.                        
+##
+####
+
+# Break: Increments $i by 1 until get a "break" in the 25 iteration.
+echo -e "\nCase 1. Break-For: (i <= 25 loop) ---> (i=0; i < 50; i++)"
+
+for (( i=0; i < 50; i++ ))
+do  
+    if [ $i -gt 25 ]
+    then    
+        break
+    fi
+    echo $i
+done
+
+# Continue: Increments $i by 1 until 10. Continues when $i is 5 and 7 (skipped).
+echo -e "\nCase 2. Continue-For: (i == 5 || i == 7 ) ---> (i=0; i < 10; i++)"
+
+for (( i=0; i < 10; i++ ))
+do  
+    if [ $i -eq 5 ] || [ $i -eq 7 ]
+    then    
+        continue
+    fi
+    echo $i
+done
