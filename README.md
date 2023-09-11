@@ -7,7 +7,7 @@
 
 ---
 
-<p align="center">As part of my learning journey, I have completed and uploaded several exercises to this repository from an introductory Bash Script course. The main purpose is to organize my notes and manage them more efficiently. Additionally, it serves as a place to showcase my work, crafted with dedication, in case it piques someone's interest.
+<p align="justify">As part of my learning journey, I have completed and uploaded several exercises to this repository from an introductory Bash Script course. The main purpose is to organize my notes and manage them more efficiently. Additionally, it serves as a place to showcase my work, crafted with dedication, in case it piques someone's interest.
     <br> 
 </p>
 
