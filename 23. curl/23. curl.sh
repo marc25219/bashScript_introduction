@@ -4,7 +4,7 @@
 ## 
 ##  [AUTHOR]: Marc Ciruelos Santos
 ##
-##  [DATE]: 10-09-2023
+##  [DATE]: 11-09-2023
 ##
 ##  [DESCRIPTION]: It uses the curl function to:
 ##                  - It redirects json HTTP to file.json.
